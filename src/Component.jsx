@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
+// import Nav from './list/Nav';
 
 const UserList = () => {
   const [users, setUsers] = useState([]);
@@ -26,6 +27,7 @@ const UserList = () => {
 
   return (
     <div>
+    
       <div className='container-bar'>
           <form onSubmit={handleSearch}>
         <input
@@ -39,7 +41,7 @@ const UserList = () => {
         <button type="submit">Search</button>
       </form>
      </div>
-
+     
       <div className='container-avatar'>
       {searchResults.map((user) => (
         <div key={user.id}  >
