@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+input{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.searchbar{
+  padding: 16px;
+  border: 2px solid rgb(40, 160, 240);
+  border-radius: 7px ;
+}
+button{
+  width: 100px;
+  padding: 16px;
+  color: aliceblue;
+  background-color:rgb(40, 160, 240) ;
+  border-radius: 7px ;
+  border: 2px solid rgb(40, 160, 240);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container-bar{
+margin-top: 70px ;
+}
+span{
+  margin-left: 120px;
+  margin-top: 65px;
+  padding: 20px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{
+  width: 300px;
+  height: 260px;
+  border-radius: 20px;
+}
+.container{
+  margin-top: 75px;
+  padding: 30px;
+  border: 2px solid black;
+  border-radius: 30px;
+  margin-right: 50px;
+ 
+}
+.container-avatar{
+  justify-content:space-around;
+  flex-wrap: wrap;
+  display: flex;
+}
+@media screen and (max-width:600px) {
+
+  .container{
+    margin-top: 75px;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-right: 0px;
+   
+  }  
+  img{
+    width: 280px;
+    height: 260px;
+    border-radius: 40px;
+  }
+}
+
