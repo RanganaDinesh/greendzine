@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-// import Nav from './list/Nav';
+
 
 const UserList = () => {
   const [users, setUsers] = useState([]);
