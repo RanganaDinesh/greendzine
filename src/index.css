@@ -58,6 +58,11 @@ img{
   width: 400px  ;
   
 }
+h3{
+  background-color: rgb(40, 160, 240);
+  color: white;
+  text-align: center;
+}
 @media screen and (max-width:600px) {
 
   .container{
@@ -75,7 +80,7 @@ img{
   }
 }
 li{
-  
+  text-align: center;
   margin: 20px;
   padding: 10px;
   background-color:rgb(40, 160, 240) ;
@@ -85,6 +90,7 @@ li{
   box-shadow: 0px 0px 5px solid rgb(85, 83, 83);
 }
 #uniq-id{
+  margin-left: 50px;
   width: 220px;
 }
 
