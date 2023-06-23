@@ -45,8 +45,7 @@ const UserList = () => {
         <div key={user.id}  >
           <span className='id-pop'>{user.id}</span>
                 <div className='container'>
-                    
-                    <img src={user.avatar} alt="avatar image"  />
+                <img src={user.avatar} alt="avatarimage" />
                 </div>
                   <h4>{user.first_name}</h4>
               </div>
